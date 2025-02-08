@@ -25,6 +25,8 @@ Para rodar no docker:
 - *mvn clean test*
 
 # 📌 Estrutura
+
+```bash
 dummyjson-client
 ├── Dockerfile ✅ (Novo, para containerização)
 ├── docker-compose.yml ✅ (Novo, para orquestração)
@@ -51,3 +53,4 @@ dummyjson-client
 │       │       │   ├── ProductIntegratedTest.java ✅ (Novo, testes de integração reais)
 │       └── resources
 └── pom.xml ✅ (Atualizado para Java 17 e Spring Boot 3.2.5)
+```

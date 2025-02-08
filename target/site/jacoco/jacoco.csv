@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+dummyjson-client,com.example.dummyjson,DummyJsonClientApplication,5,3,0,0,2,1,1,1,1,1
+dummyjson-client,com.example.dummyjson.config,WebClientConfig,0,8,0,0,0,2,0,2,0,2
+dummyjson-client,com.example.dummyjson.dto,Product,15,31,0,0,6,13,1,9,1,9
+dummyjson-client,com.example.dummyjson.service,ProductService.new ParameterizedTypeReference() {...},0,6,0,0,0,1,0,1,0,1
+dummyjson-client,com.example.dummyjson.service,ProductService,4,73,3,3,2,20,3,4,0,4
+dummyjson-client,com.example.dummyjson.controller,Health,2,3,0,0,1,1,1,1,1,1
+dummyjson-client,com.example.dummyjson.controller,ProductController,0,22,0,2,0,6,0,4,0,3

@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  dummy-json:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dummy-json
+    container_name: dummy-json-container
+    ports:
+      - "8080:8080"
